@@ -6,6 +6,7 @@ import Dashboard from './components/Dashboard'
 import About from './components/About'
 import Home from './components/Home'
 import Product from './components/Product'
+import Contact from './components/Contact'
 
 
 
@@ -21,7 +22,11 @@ import Product from './components/Product'
         {
             path:"about",
         element:<About/>
-        }
+        },
+        {
+          path:"contact",
+      element:<Contact/>
+      }
     ]
 },
 {
